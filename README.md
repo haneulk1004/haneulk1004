@@ -79,20 +79,6 @@ QA Focus Areas:
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=haneulk1004&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haneulk1004&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=haneulk1004&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9)
-
-</div>
-
----
-
 ## 🎓 Professional Philosophy
 
 > **"AI는 QA를 대체하지 않습니다. AI를 활용하는 QA가 그렇지 못한 QA를 대체합니다."**
