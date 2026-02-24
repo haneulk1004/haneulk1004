@@ -23,17 +23,6 @@ QA 자동화    ── 테스트 케이스 생성 · 리뷰 분석 · 이슈 트
 
 ---
 
-## 🛠️ 기술 스택
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-
----
-
 ## 📌 주목 프로젝트 — Game AI QA Evaluator
 
 > LLM 기반 Game AI Agent 응답 품질을 수치로 평가하는 QA 자동화 툴
