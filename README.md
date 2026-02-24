@@ -12,7 +12,7 @@
 
 **게임 QA 엔지니어**
 
-생성형 AI와 바이브 코딩을 활용하여 **AI가 학습하고 진화하는 QA 프로세스**를 설계하고 싶습니다.
+생성형 AI를 활용하여 **AI가 학습하고 진화하는 QA 프로세스**를 설계하고 싶습니다.
 
 ```
 🎮 Game Quality Assurance + 🤖 Generative AI = 🚀 Next-Gen Testing
