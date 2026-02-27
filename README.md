@@ -1,56 +1,36 @@
-## 🔬 주요 프로젝트
+# 하늘 (haneulk1004) 👋  
+**AI를 활용해 “유저 피드백 → 인사이트 → 실행 가능한 QA 액션”으로 연결하는 도구를 만듭니다.**  
+- 관심사: 게임 QA/리서치 자동화, 리뷰/텍스트 분석, 브라우저 기반 생산성 도구, 데이터 파이프라인/시각화
 
-| 프로젝트 | 설명 | 기술 |
+---
+
+## 🚀 Featured Projects
+
+| 프로젝트 | 한 줄 소개 | 키워드 |
 |---|---|---|
-| [🎯 Game AI QA Evaluator](https://github.com/haneulk1004/game-ai-qa-evaluator) | Game AI Agent 응답을 4개 지표로 자동 채점 · 한국어 혐오표현 데이터셋 연동 | HTML · JS |
-| [⚔️ CombatTestGen](https://github.com/haneulk1004/CombatTestGen) | 전투 시스템 테스트 케이스 자동 생성 | Python |
-| [🔍 Universal Game QA Tool](https://github.com/haneulk1004/universal-game-qa-tool) | AI 기반 게임 리뷰 분석 및 QA 자동화 시스템 | JavaScript |
-| [📊 Research Game QA Tool](https://github.com/haneulk1004/Research-game-qa-tool) | 모든 게임 장르 지원 실시간 유저 리뷰 분석 & QA 인사이트 도출 | JavaScript |
-| [⚾ Baseball Game QA Tool](https://github.com/haneulk1004/baseball-game-qa-tool) | AI 기반 야구 게임 QA 리서치 툴 | JavaScript |
-| [🎰 Gacha Prob Insight](https://github.com/haneulk1004/Gacha-Prob-Insight) | 가챠 확률 분석 인사이트 툴 | HTML |
-| [💰 PriceCheck](https://github.com/haneulk1004/pricecheck) | 사진 한 장으로 제품 식별 · 시장 가치 추론 | HTML |
-| [🎙️ Voice De-Noise](https://github.com/haneulk1004/voice-de-noise) | 음성 노이즈 제거 툴 | JavaScript |
+| **Universal Game QA Analysis Tool** | 장르 무관 게임 리뷰를 실시간 수집/분석하고, AI로 QA 체크리스트를 생성 | React, Recharts, Claude API |
+| **AI 야구 게임 QA 리서치 툴** | 모바일 야구 게임 리뷰를 자동 분류/감성 분석하여 QA 인사이트 도출 | 리뷰 분석, 체크리스트 자동화 |
+| **txt2pub (TXT→EPUB 변환기)** | 서버 업로드 없이 브라우저에서 TXT를 EPUB로 변환하는 웹 도구(PWA) | PWA, JSZip, 클라이언트 변환 |
+| **Candy Soap Game (사탕 비누 게임)** | 순발력/판단력 기반 캐주얼 웹 게임(캐릭터 선택·피버타임 등) | HTML5, Canvas, Web Audio |
+| **PRICE_CHECK** | 사진 한 장으로 제품을 식별하고 시장가(시세)를 추론하는 콘셉트 서비스 | Vision, 스마트 검색 |
+| **SCC Model - Portfolio** | 대규모 시나리오 데이터를 연동/업로드/시각화하는 풀스택 포트폴리오 | Full-stack, 대규모 업로드 |
+
+> 각 프로젝트는 GitHub 레포에서 자세히 확인하실 수 있습니다.  
+> (프로젝트명으로 GitHub에서 검색하거나 제 프로필 Repositories 탭을 참고해 주세요.)
 
 ---
 
-## 💡 관심 분야
-
-```
-Game AI QA   ── LLM 응답 품질 평가 · Safety 필터 · 프롬프트 회귀 테스트
-QA 자동화    ── 테스트 케이스 생성 · 리뷰 분석 · 이슈 트래킹
-게임 분석    ── 유저 리뷰 인사이트 · 확률 검증 · 밸런스 QA
-```
+## 🎯 What I’m focusing on
+- 리뷰 데이터에서 **“재현 가능한 QA 액션”**을 뽑아내는 분류/요약/체크리스트 파이프라인 고도화  
+- 실무에서 바로 쓰는 **업로드/분석/리포팅 UI** 개선  
+- (선택) 멀티 게임/멀티 스토어 리뷰 수집 → 대시보드 통합
 
 ---
 
-## 📌 주목 프로젝트 — Game AI QA Evaluator
-
-> LLM 기반 Game AI Agent 응답 품질을 수치로 평가하는 QA 자동화 툴
-
-**배경**  
-AI NPC는 동일한 입력에도 매번 다른 응답을 생성합니다.  
-기존 Pass/Fail 체크리스트 방식으로는 이 **비결정적 출력을 검수하는 데 한계**가 있습니다.
-
-**해결책**  
-4개 품질 지표로 모든 응답을 수치화합니다.
-
-| 지표 | 가중치 | 의미 |
-|---|---|---|
-| 정확성 (Groundedness) | 30% | 게임 세계관 DB와 일치하는가 |
-| 자연스러움 (Fluency) | 25% | 캐릭터 말투가 어울리는가 |
-| 안전성 (Safety) | 30% | 부적절한 표현이 없는가 |
-| 일관성 (Consistency) | 15% | 캐릭터 설정과 모순 없는가 |
-
-**특징**
-- ✅ 설치 없음 · 인터넷 불필요 — HTML 파일 하나로 즉시 실행
-- 🔴 한국어 혐오표현 데이터셋 연동 (Smilegate AI UnSmile, CC-BY-NC-ND 4.0)
-- 📚 단어 학습 기능 — 미감지 표현 즉시 추가 · 일괄 등록
-- 🎛️ 자동 채점 + 수동 채점 하이브리드 구조
-
-**[▶ 라이브 데모 바로가기](https://haneulk1004.github.io/game-ai-qa-evaluator/qa-evaluator-demo.html)**
+## 📬 Contact
+- Email: sonicsilver@naver.com
 
 ---
 
-## 📫 연락처
-
-[![GitHub](https://img.shields.io/badge/GitHub-haneulk1004-181717?style=flat-square&logo=github)](https://github.com/haneulk1004)
+## ✅ Quick Links
+- Repositories: https://github.com/haneulk1004?tab=repositories
